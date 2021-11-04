@@ -1,0 +1,30 @@
+{
+  "name": "minecraft-node-thanos",
+  "version": "0.1.0",
+  "description": "Reduce unused chunks of Minecraft world to atoms",
+  "bin": {
+    "mc-thanos": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saiv46/node-thanos.git"
+  },
+  "keywords": [
+    "minecraft"
+  ],
+  "author": "Saiv46",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saiv46/node-thanos/issues"
+  },
+  "homepage": "https://github.com/Saiv46/node-thanos#readme",
+  "dependencies": {
+    "prismarine-nbt": "^1.6.0",
+    "prismarine-provider-anvil": "^2.4.0",
+    "yargs": "^17.2.1"
+  }
+}
