@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Saiv46/node-thanos#readme",
   "dependencies": {
     "prismarine-nbt": "^1.6.0",
-    "prismarine-provider-anvil": "^2.4.0",
+    "prismarine-provider-anvil": "github:Saiv46/prismarine-provider-anvil#patch-2",
     "yargs": "^17.2.1"
   }
 }
